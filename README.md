@@ -1,7 +1,9 @@
   # Exploring SQL MCP Server with Azure SQL & Data API Builder in VS Code
 
-With SQL MCP Server now Generally Available, I wanted to validate its capabilities and explore how it enables secure AI-to-database interactions in a real-world environment.    
+With SQL MCP Server now Generally Available, I wanted to validate its capabilities and explore how it enables secure AI-to-database interactions in a real-world environment.   
+
 As AI-powered development tools such as GitHub Copilot become integral to engineering workflows, organizations need a governed approach for exposing enterprise data to AI agents. Allowing an LLM to generate arbitrary SQL introduces security, compliance, and operational risks. While natural language access to databases is compelling, enterprise architects must ensure that access remains auditable, secure, and aligned with existing governance controls.    
+
 SQL MCP Server addresses this challenge by exposing approved database entities and operations as Model Context Protocol (MCP) tools. AI agents can discover and invoke these tools through controlled schemas and permissions rather than issuing unrestricted SQL statements directly against a database.  
 
   Built into Data API Builder (DAB), SQL MCP Server supports:    

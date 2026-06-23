@@ -6,6 +6,8 @@ As AI-powered development tools such as GitHub Copilot become integral to engine
 
 SQL MCP Server addresses this challenge by exposing approved database entities and operations as Model Context Protocol (MCP) tools. AI agents can discover and invoke these tools through controlled schemas and permissions rather than issuing unrestricted SQL statements directly against a database.  
 
+Being a database architect, I was particularly interested in understanding whether SQL MCP Server could provide a secure alternative to traditional NL2SQL approaches. My goal was to evaluate the setup experience, governance model, and how effectively GitHub Copilot could interact with relational data exposed through MCP.
+
   Built into Data API Builder (DAB), SQL MCP Server supports:    
   	• Azure SQL Database    
   	• SQL Server    
@@ -51,7 +53,14 @@ https://learn.microsoft.com/en-us/azure/data-api-builder/mcp/quickstart-visual-s
 
 For reference, I have also attached the configuration files generated during the setup, which can be used as a starting point for similar implementations.
 
-Below is a sample of a query executed, we can see that the video demonstrates how an AI agent discovers approved database entities, generates contextual queries, and retrieves real-time data directly from the source database while maintaining governance and security controls. This approach simplifies AI-to-database integration and provides a practical alternative to traditional vector search and NL2SQL architectures for structured operational data.
+Below is a sample of a query executed. During testing, GitHub Copilot was able to:
+
+- Discover exposed entities automatically
+- Understand table relationships
+- Retrieve data from AdventureWorks database
+- Generate contextual responses based on live database content
+
+No custom prompts, embeddings, or API development were required.
 
 
 https://github.com/user-attachments/assets/3b427b35-1841-4704-b1f2-f1bdd8eb4f62

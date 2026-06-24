@@ -53,7 +53,7 @@ https://learn.microsoft.com/en-us/azure/data-api-builder/mcp/quickstart-visual-s
 
 For reference, I have also attached the configuration files generated during the setup, which can be used as a starting point for similar implementations.
 
-Below is a sample of a query executed. During testing, GitHub Copilot was able to:
+Below are 2 samples of a query executed. During testing, GitHub Copilot was able to:
 
 - Discover exposed entities automatically
 - Understand table relationships
@@ -63,7 +63,15 @@ Below is a sample of a query executed. During testing, GitHub Copilot was able t
 No custom prompts, embeddings, or API development were required.
 
 
-https://github.com/user-attachments/assets/3b427b35-1841-4704-b1f2-f1bdd8eb4f62
+https://github.com/user-attachments/assets/e7268a62-dd2e-4f15-aed1-62df3be5703b
+
+
+
+https://github.com/user-attachments/assets/c354aa91-e83f-48df-b4f7-b822d4dbbe05
+
+
+
+
 
 
 ## Why SQL MCP Server?
